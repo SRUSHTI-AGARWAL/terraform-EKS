@@ -1,0 +1,11 @@
+ssh_key_name = "eks_st"
+vpc_name= "EKS-VPC"
+vpc_cidr_block ="10.0.0.0/16"
+vpc_subnet_name = "eks-public-subnet"
+cluster_sg_name = "eks_cluster_sg"
+node_sg_name= "eks_node_sg"
+igw = "eks-igw"
+rt = "eks-route-table"
+eks = "eks-st"
+eks_ng= "eks-st-nodes"
+
