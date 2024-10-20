@@ -112,6 +112,7 @@ security_group_ids = [aws_security_group.eks_cluster_security_group.id]
 }
 }
 
+# node-group creation
 
 resource "aws_eks_node_group" "eks_node_group"{
 cluster_name = aws_eks_cluster.eks_st.name
